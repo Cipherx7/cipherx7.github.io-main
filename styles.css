@@ -1,0 +1,150 @@
+/* styles.css */
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+}
+
+#about p {
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1px; /* Increase the width to make it bigger */
+  height: 40px; /* Increase the height to make it bigger */
+  background-color: black;
+  animation: blink 1s infinite;
+}
+/* Add this to your styles.css file */
+#home.jumbotron{
+ 
+  padding-bottom: 0px;
+ 
+  margin-bottom:0px;
+}
+.image-profile img {
+
+  width: 50%; /* Adjust the width as needed */
+  max-width: 300px; /* Set a maximum width if desired */
+  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.345)); /* Add a drop shadow */
+  margin: 0 auto; /* Center the image horizontally */
+  padding-top: 30px;
+}
+
+
+.navbar {
+  background: transparent;
+  backdrop-filter: blur(3px);
+  background-color: #00000014;
+}
+.navbar-nav .nav-link {
+  color: rgb(0, 123, 255);
+}
+
+/* Add this CSS to your styles.css file */
+
+/* Adjust carousel item height if needed */
+.carousel-item {
+  height: 100%;
+}
+
+/* Style the repo cards within the carousel */
+.repo-card {
+  width: 100%; /* Adjust the width of the cards */
+  padding: 30px;
+  margin: 30px;
+}
+
+.carousel-inner,
+.carousel-item {
+  margin: 0;
+  padding: 0;
+}
+#projectCarousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Style the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #9c9c9c00; /* Control icon color */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(194, 194, 194, 0); /* Control hover background color */
+}
+
+/* Remove default Bootstrap indicators */
+.carousel-indicators {
+  display: none;
+}
+
+/* Add this CSS to your styles.css file */
+
+/* Style for custom icons */
+.custom-icon {
+  width: 50px; /* Set the desired width */
+  height: 50px; /* Set the desired height */
+  background-size: cover; /* Adjust as needed */
+  margin: 10px; /* Add some space between icons */
+}
+
+/* Style for Twitter custom icon */
+.custom-icon.twitter {
+  background-image: url('path_to_your_custom_icons/twitter.png'); /* Provide the path to your Twitter icon */
+}
+
+/* Style for Github custom icon */
+.custom-icon.github {
+  background-image: url('https://i.ibb.co/VHT2Kvd/Github.png'); /* Provide the path to your Github icon */
+}
+
+/* Style for LinkedIn custom icon */
+.custom-icon.linkedin {
+  background-image: url('path_to_your_custom_icons/linkedin.png'); /* Provide the path to your LinkedIn icon */
+}
+/* Social Icon Styles */
+.custom-icon {
+  display: inline-block;
+  margin: 10px; /* Adjust the spacing between icons */
+  font-size: 32px; /* Adjust the icon size as needed */
+  transition: color 0.3s; /* Add a smooth transition for the color change */
+  color: #000; /* Set the default icon color */
+}
+
+/* Hover Animation */
+.custom-icon:hover {
+  color: #007bff; /* Change the color on hover (adjust to your preferred color) */
+}
+
